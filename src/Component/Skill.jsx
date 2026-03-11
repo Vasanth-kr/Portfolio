@@ -1,4 +1,11 @@
-import React from 'react'
+import React from "react";
+
+import Html from "../assets/html.png";
+import Css from "../assets/Css.png";
+import Javascript from "../assets/java-script.png";
+import Reactlogo from "../assets/react.png";
+import Tailwind from "../assets/tailwind.png";
+import Bootstrap from "../assets/bootstrap.png";
 
 function Skill() {
   return (
@@ -6,56 +13,47 @@ function Skill() {
       {/* Heading */}
 
       <div className="text-center mb-10 pt-5">
-        <p className="font-normal text-gray-600">What i Know</p>
-        <h1 className="text-4xl font-semibold mt-3">Skill's</h1>
+        <p className="font-normal text-gray-600">What I Know</p>
+        <h1 className="text-4xl font-semibold mt-3">Skills</h1>
       </div>
-
 
       {/* Main */}
 
-      <div className='w-full h-auto grid  md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-10 text-center '>
+      <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center text-center p-5">
 
-      <div className='w-70 h-auto shadow-2xl'>
-        <img className='p-5' src="src\assets\html.png" alt="" />
-        <h1 className='text-2xl font-semibold '>HTML</h1>
-      </div>
+        <div className="max-w-xs p-5 rounded-xl shadow-xl hover:scale-105 transition duration-300">
+          <img className="p-3" src={Html} alt="HTML logo" />
+          <h1 className="text-xl font-semibold">HTML</h1>
+        </div>
 
-      <div className='w-70 h-auto shadow-2xl'>
-        <img className='p-5' src="src\assets\Css.png" alt="" />
-        <h1 className='text-2xl font-semibold '>CSS</h1>
-      </div>
+        <div className="max-w-xs p-5 rounded-xl shadow-xl hover:scale-105 transition duration-300">
+          <img className="p-3" src={Css} alt="CSS logo" />
+          <h1 className="text-xl font-semibold">CSS</h1>
+        </div>
 
-      <div className='w-70 h-auto shadow-2xl'>
-        <img className='p-5' src="src\assets\java-script.png" alt="" />
-        <h1 className='text-2xl font-semibold '>JavaScript</h1>
-      </div>
+        <div className="max-w-xs p-5 rounded-xl shadow-xl hover:scale-105 transition duration-300">
+          <img className="p-3" src={Javascript} alt="JavaScript logo" />
+          <h1 className="text-xl font-semibold">JavaScript</h1>
+        </div>
 
-      <div className='w-70 h-auto shadow-2xl'>
-        <img className='p-5' src="src\assets\React.png" alt="" />
-        <h1 className='text-2xl font-semibold '>React</h1>
-      </div>
+        <div className="max-w-xs p-5 rounded-xl shadow-xl hover:scale-105 transition duration-300">
+          <img className="p-3" src={Reactlogo} alt="React logo" />
+          <h1 className="text-xl font-semibold">React</h1>
+        </div>
 
-      <div className='w-70 h-auto shadow-2xl'>
-        <img className='p-5' src="src\assets\Tailwind CSS.png" alt="" />
-        <h1 className='text-2xl font-semibold '>Tailwind CSS</h1>
-      </div>
+        <div className="max-w-xs p-5 rounded-xl shadow-xl hover:scale-105 transition duration-300">
+          <img className="p-3" src={Tailwind} alt="Tailwind logo" />
+          <h1 className="text-xl font-semibold">Tailwind CSS</h1>
+        </div>
 
-      <div className='w-70 h-auto shadow-2xl'>
-        <img className='p-5' src="src\assets\bootstrap.png" alt="" />
-        <h1 className='text-2xl font-semibold '>Boostrap</h1>
-      </div>
-
-
-
+        <div className="max-w-xs p-5 rounded-xl shadow-xl hover:scale-105 transition duration-300">
+          <img className="p-3" src={Bootstrap} alt="Bootstrap logo" />
+          <h1 className="text-xl font-semibold">Bootstrap</h1>
+        </div>
 
       </div>
-
-
     </div>
-  )
+  );
 }
 
-export default Skill
-
-
-
+export default Skill;

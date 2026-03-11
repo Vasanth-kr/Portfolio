@@ -16,7 +16,7 @@ function Contact() {
       {/* Contant */}
 
       <div className="flex items-center justify-center p-5  ">
-        <div className="border border-gray-600 w-120 h-auto gap-5 lg:flex-row lg:h-20 rounded-2xl flex-col  flex items-center justify-evenly  p-5">
+        <div className="border border-gray-600 w-120 h-auto gap-5 lg:flex-row lg:h-20 lg:w-130 rounded-2xl flex-col  flex items-center justify-evenly  p-5">
           <div className="text-xl md:text-2xl border-1 rounded-full w-10 h-10 bg-black text-white flex items-center justify-center">
             <IoMailSharp />
           </div>
