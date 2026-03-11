@@ -78,7 +78,7 @@ function Project() {
 
             <a
               className="border px-4 py-2 rounded-xl hover:bg-black hover:text-white"
-              href="https://portfolio-gray-nine-91.vercel.app/project"
+              href="https://portfolio-an6v.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
