@@ -4,7 +4,7 @@ import Html from "../assets/html.png";
 import Css from "../assets/Css.png";
 import Javascript from "../assets/java-script.png";
 import Reactlogo from "../assets/reactimg.png";
-import Tailwind from "../assets/tailwind.png";
+import Tailwind from "../assets/Tailwind CSS.png";
 import Bootstrap from "../assets/bootstrap.png";
 
 function Skill() {

@@ -1,43 +1,76 @@
 import React from "react";
-import { IoMailSharp } from "react-icons/io5";
-
-import { FaLinkedin } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div>
-      {/* Heading */}
+    <section className="flex flex-col items-center justify-center min-h-screen bg-gray-50 px-5">
 
-      <div className="text-center mb-10 pt-5">
-        <p className="font-normal text-gray-600">Get in Touch</p>
-        <h1 className="text-4xl font-semibold mt-3">Contact Me</h1>
-      </div>
+      <p className="text-gray-500">Get in Touch</p>
+      <h1 className="text-4xl font-semibold mt-2">Contact Me</h1>
 
-      {/* Contant */}
+      <div className="grid md:grid-cols-2 gap-10 mt-12 w-full max-w-4xl">
 
-      <div className="flex items-center justify-center p-5  ">
-        <div className="border border-gray-600 w-120 h-auto gap-5 lg:flex-row lg:h-20 lg:w-130 rounded-2xl flex-col  flex items-center justify-evenly  p-5">
-          <div className="text-xl md:text-2xl border-1 rounded-full w-10 h-10 bg-black text-white flex items-center justify-center">
-            <IoMailSharp />
+        {/* Contact Info */}
+        <div className="flex flex-col gap-6">
+
+          <div className="flex items-center gap-4 border p-4 rounded-xl bg-white shadow-sm">
+            <i className="fa-solid fa-envelope text-2xl"></i>
+            <p className="text-lg">vasanth@email.com</p>
           </div>
-          <a
-            className="text-sm md:text-2xl font-semibold"
-            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
-          >
-            Vasanth@Email.com
-          </a>
-          <div className="text-xl md:text-2xl border-1 rounded-full w-10 h-10 bg-black text-white flex items-center justify-center">
-            <FaLinkedin />
+
+          <div className="flex items-center gap-4 border p-4 rounded-xl bg-white shadow-sm">
+            <i className="fa-brands fa-linkedin text-2xl"></i>
+            <a
+              href="https://www.linkedin.com/in/vasantha-kumar-kv/"
+              target="_blank"
+              className="text-lg"
+            >
+              LinkedIn Profile
+            </a>
           </div>
-          <a
-            className="text-sm md:text-2xl font-semibold"
-            href="https://www.linkedin.com/in/vasantha-kumar-kv/"
-          >
-            LinkedIn
-          </a>
+
+          <div className="flex items-center gap-4 border p-4 rounded-xl bg-white shadow-sm">
+            <i className="fa-brands fa-github text-2xl"></i>
+            <a
+              href="https://github.com/Vasanth-kr"
+              target="_blank"
+              className="text-lg"
+            >
+              GitHub Profile
+            </a>
+          </div>
+
         </div>
+
+        {/* Contact Form */}
+        <form className="flex flex-col gap-4 bg-white p-6 rounded-xl shadow-sm">
+
+          <input
+            type="text"
+            placeholder="Your Name"
+            className="border p-3 rounded-lg outline-none"
+          />
+
+          <input
+            type="email"
+            placeholder="Your Email"
+            className="border p-3 rounded-lg outline-none"
+          />
+
+          <textarea
+            rows="4"
+            placeholder="Your Message"
+            className="border p-3 rounded-lg outline-none"
+          ></textarea>
+
+          <button className="bg-black text-white py-3 rounded-lg hover:bg-gray-800">
+            Send Message
+          </button>
+
+        </form>
+
       </div>
-    </div>
+
+    </section>
   );
 }
 

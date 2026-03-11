@@ -1,15 +1,15 @@
 import React from "react";
 
-import Profile from "../assets/profile.jpeg"
+import Profile from "../assets/profile.jpeg";
 
 function About() {
   return (
     <div className="px-6">
-       {/* Heading */}
+      {/* Heading */}
 
       <div className="text-center mb-10 pt-5">
-        <p className="font-normal text-gray-600">Browse My Recent</p>
-        <h1 className="text-4xl font-semibold mt-3">Projects</h1>
+        <p className="font-normal text-gray-600">Get To Know More</p>
+        <h1 className="text-4xl font-semibold mt-3">About Me</h1>
       </div>
 
       {/* Main Grid */}
@@ -35,7 +35,7 @@ function About() {
 
             <div className="border w-full sm:w-72 h-40 rounded-xl flex flex-col justify-center items-center text-center shadow-md">
               <h2 className="font-bold">Certified Course</h2>
-              <h4 className="font-semibold pt-2">MEAN Stack Developer</h4>
+              <h4 className="font-semibold pt-2">Frontend Developer</h4>
               <p>6 Month Course - SDLC Dindigul</p>
             </div>
           </div>
@@ -43,13 +43,10 @@ function About() {
           {/* Description */}
           <div>
             <p className="text-gray-600 leading-relaxed text-justify">
-              Passionate and self-motivated MERN Stack Developer with a strong
-              foundation in MongoDB, Express.js, React, and Node.js. Skilled in
-              building responsive and user-friendly web applications using HTML,
-              CSS, JavaScript, Bootstrap, and Tailwind CSS. Experienced in
-              developing and integrating RESTful APIs for scalable applications.
-              Eager to contribute to real-world projects and continuously grow
-              as a full-stack developer.
+              Enthusiastic Frontend Developer with knowledge of HTML, CSS,
+              JavaScript, React, Tailwind CSS, Bootstrap, and jQuery. Passionate
+              about building responsive, user-friendly websites and eager to
+              contribute to real-world projects.”
             </p>
           </div>
         </div>
